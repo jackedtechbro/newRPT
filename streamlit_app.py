@@ -38,10 +38,12 @@ with st.echo(code_location='below'):
         .encode(x='x:Q', y='y:Q'))
 '''
 
-agree = st.checkbox('I agree')
+#agree = st.checkbox('I agree')
 test = st.checkbox('test')
 temp = 0  
 temp += st.checkbox('test2')
-if agree:
-    st.write("temp = " + temp)
-    st.write('Great!')
+someStr = "temp = " + temp
+
+    
+st.write(someStr)
+st.write('Great!')
