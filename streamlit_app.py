@@ -125,6 +125,15 @@ score += st.checkbox("97: Committed an act of voyeurism?")
 score += st.checkbox("98: Committed an act of incest?")
 score += st.checkbox("99: Worn a fursuit?")
 score += st.checkbox("100: Engaged in bestiality?")
-    
-st.write("Your rice purity test is:", 100 - score)
+
+score = 100 - score
+st.write("Your rice purity test is:", score)
+if score > 80:
+    st.write("Aww, you are so pure!!")
+elif score > 50:
+    st.write("You are pretty regular")
+elif score > 30:
+    st.write("You are bad but I've seen worse")
+else:
+    st.write("YOU'SE A HOE")
 #st.write()
