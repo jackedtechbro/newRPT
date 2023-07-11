@@ -6,8 +6,10 @@ import pandas as pd
 '''
 import streamlit as st
 
+st.markdown("<h1 style='text-align: center; color: grey;'>Welcome to the New Rice Purity Test! :heart:</h1>", unsafe_allow_html=True)
+
+
 """
-# Welcome to the New Rice Purity Test! :heart:
 
 The Purity Test had historically served as a segue from O-week to true college life at Rice.
 However, it is soooo outdated and in desperate need of an overhaul, so here's an updated version! 
