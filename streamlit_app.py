@@ -43,5 +43,5 @@ test = st.checkbox('test')
 temp = 0  
 temp += st.checkbox('test2')
 if agree:
-    st.write('temp = ' + temp)
+    st.write("temp = " + temp)
     st.write('Great!')
