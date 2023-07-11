@@ -11,7 +11,7 @@ If you have completed all this you are an absolute fuckin legend.
 
 Click on every item you have done. MPS stands for Member of the Preferred Sex.
 
-**Created by [@jackedtechbro](https://twitter.com/JackedTechBro/)**, idea by [@tenobrus](https://twitter.com/tenobrus/status/1678502863813885952), additional questions credit [@spoonedher](https://twitter.com/spoonedher) [@cosmicmould](https://twitter.com/cosmicmould)
+**Created by [@jackedtechbro](https://twitter.com/JackedTechBro/)**, idea by [@tenobrus](https://twitter.com/tenobrus/status/1678502863813885952), additional questions credit [@spoonedher](https://twitter.com/spoonedher), [@cosmicmould](https://twitter.com/cosmicmould)
 """
 
 score = 0
