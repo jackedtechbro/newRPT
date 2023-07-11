@@ -1,13 +1,6 @@
-'''
-from collections import namedtuple
-import altair as alt
-import math
-import pandas as pd
-'''
 import streamlit as st
 
 st.markdown("<h1 style='text-align: center; color: white;'>THE NEW RICE PURITY TEST</h1>", unsafe_allow_html=True)
-
 
 """
 
@@ -20,8 +13,6 @@ Click on every item you have done. MPS stands for Member of the Preferred Sex.
 
 **Created by [@jackedtechbro](https://twitter.com/JackedTechBro/)**, idea by [@tenobrus](https://twitter.com/tenobrus/status/1678502863813885952), additional questions credit [@spoonedher](https://twitter.com/spoonedher)
 """
-
-
 
 score = 0
 
@@ -136,4 +127,3 @@ elif score > 30:
     st.write("Judgement: You are bad but I've seen worse")
 else:
     st.write("Judgement: YOU'SE A HOE")
-#st.write()
