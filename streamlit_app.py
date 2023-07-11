@@ -129,11 +129,11 @@ score += st.checkbox("100: Engaged in bestiality?")
 score = 100 - score
 st.write("Your rice purity test is:", score)
 if score > 80:
-    st.write("Aww, you are so pure!!")
+    st.write("Judgement: Aww, you are so pure!!")
 elif score > 50:
-    st.write("You are pretty regular")
+    st.write("Judgement: You are pretty regular")
 elif score > 30:
-    st.write("You are bad but I've seen worse")
+    st.write("Judgement: You are bad but I've seen worse")
 else:
-    st.write("YOU'SE A HOE")
+    st.write("Judgement: YOU'SE A HOE")
 #st.write()
