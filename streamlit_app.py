@@ -20,7 +20,7 @@ Created by @jackedtechbro, idea by @tenobrus
 
 score = 0
 
-score += st.checkbox('1. Held hands romantically?')
+score += st.checkbox('1: Held hands romantically?')
 score += st.checkbox("2. Been on a date?")
 score += st.checkbox("3. Been in a relationship?")
 score += st.checkbox("4. Danced without leaving room for Jesus?")
