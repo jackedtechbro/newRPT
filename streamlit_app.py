@@ -42,8 +42,8 @@ with st.echo(code_location='below'):
 test = st.checkbox('test')
 temp = 0  
 temp += st.checkbox('test2')
-someStr = "temp = " + temp
+#someStr = "temp = " + temp
 
     
-st.write(someStr)
+st.write(temp)
 st.write('Great!')
