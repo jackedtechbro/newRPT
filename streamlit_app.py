@@ -7,40 +7,20 @@ import streamlit as st
 """
 # Welcome to the New Rice Purity Test! :heart:
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire 
+The Purity Test had historically served as a segue from O-week to true college life at Rice.
+However, it is soooo outdated and in desperate need of an overhaul, so here's an updated version! 
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+If you have completed all this you are an absolute fuckin legend. 
 
-In the meantime, below is an example of what you can do with just a few lines of code:
+Click on every item you have done. MPS stands for Member of the Preferred Sex.
+Created by @jackedtechbro, idea by @tenobrus
 """
 
-'''
-with st.echo(code_location='below'):
-    total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
-    num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
 
-    Point = namedtuple('Point', 'x y')
-    data = []
-
-    points_per_turn = total_points / num_turns
-
-    for curr_point_num in range(total_points):
-        curr_turn, i = divmod(curr_point_num, points_per_turn)
-        angle = (curr_turn + 1) * 2 * math.pi * i / points_per_turn
-        radius = curr_point_num / total_points
-        x = radius * math.cos(angle)
-        y = radius * math.sin(angle)
-        data.append(Point(x, y))
-
-    st.altair_chart(alt.Chart(pd.DataFrame(data), height=500, width=500)
-        .mark_circle(color='#0068c9', opacity=0.5)
-        .encode(x='x:Q', y='y:Q'))
-'''
 
 score = 0
 
-score += st.checkbox("1. Held hands romantically?")
+score += st.checkbox('1. Held hands romantically?')
 score += st.checkbox("2. Been on a date?")
 score += st.checkbox("3. Been in a relationship?")
 score += st.checkbox("4. Danced without leaving room for Jesus?")
@@ -139,7 +119,6 @@ score += st.checkbox("97. Paid or been paid for a sexual act?")
 score += st.checkbox("98. Committed an act of voyeurism?")
 score += st.checkbox("99. Committed an act of incest?")
 score += st.checkbox("100. Engaged in bestiality?")
-
 
     
 st.write("Your rice purity test is:")
