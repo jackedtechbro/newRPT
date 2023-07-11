@@ -11,7 +11,7 @@ If you have completed all this you are an absolute fuckin legend.
 
 Click on every item you have done. MPS stands for Member of the Preferred Sex.
 
-**Created by [@jackedtechbro](https://twitter.com/JackedTechBro/)**, idea by [@tenobrus](https://twitter.com/tenobrus/status/1678502863813885952), additional questions credit [@spoonedher](https://twitter.com/spoonedher)
+**Created by [@jackedtechbro](https://twitter.com/JackedTechBro/)**, idea by [@tenobrus](https://twitter.com/tenobrus/status/1678502863813885952), additional questions credit [@spoonedher](https://twitter.com/spoonedher) [@cosmicmould](https://twitter.com/cosmicmould)
 """
 
 score = 0
@@ -87,7 +87,7 @@ score += st.checkbox("68: Had sexual intercourse with a stranger or person you m
 score += st.checkbox("69: ?")
 score += st.checkbox("70: Had sexual intercourse in a motor vehicle?")
 score += st.checkbox("71: Had sexual intercourse in an autonomous vehicle?")
-score += st.checkbox("72: Had sexual intercourse outdoors?")
+score += st.checkbox("72: Had sexual intercourse in a moving autonomous vehicle?")
 score += st.checkbox("73: Had sexual intercourse in public?")
 score += st.checkbox("74: Had sexual intercourse on livestream?")
 score += st.checkbox("75: Had sexual intercourse while wearing VR headsets?")
